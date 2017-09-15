@@ -1,0 +1,2 @@
+# Family-Social-Platform
+Created a Family Social Media alike Facebook for My Family for Entertainment Purpose.The Application is Still in Beta Phase. It includes Navigation Drawer and 4 fragments for the Drawer items.Each Fragment either takes input or Displays a Text.One of the Fragment will be further used to Allow Chatting between Family Members @ App and One fragment for sharing Images and Much More..!!
