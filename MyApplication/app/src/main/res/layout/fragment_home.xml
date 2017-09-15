@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@color/AliceBlue"
+    tools:context="com.example.mishr.myapplication.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/homeconstraintlayout"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoSizeTextType="uniform"
+        android:text="This is the Home Fragment where you can see all the Happenings in our Family...You can Literally Share here fotos and Text according to Your Mood..!!"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textStyle="bold|italic"
+        android:padding="15dp"
+        android:id="@+id/txhome1"
+        android:background="@color/BlueViolet"
+        android:textColor="@color/OrangeRed"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="37dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Just Like Mini Family FACEBOOK..!!"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:textStyle="bold|normal"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/txhome1"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="129dp"
+            android:layout_height="114dp"
+            app:srcCompat="@drawable/fbicon"
+            android:layout_marginTop="38dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            android:layout_marginLeft="8dp"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_bias="0.502" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/AliceBlue"
+    tools:context="com.example.mishr.myapplication.SettingsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="This Screen will be used to Add some Un-Usual Settings like keeping you Last Seen off Still can see Other's..!!"
+    android:textAlignment="center"
+    android:textSize="25sp"
+    android:padding="15dp"
+    android:id="@+id/txsettings1"
+    android:layout_margin="10dp"
+    android:textStyle="italic"
+    android:textColor="@color/Brown"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txsettings1"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:id="@+id/txsettings2"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@color/LightYellow"
+        android:text="Please Let the Developer know the Users needs and the UI they Want..!!"
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txsettings2"
+            android:src="@drawable/feedbackicon"
+            android:padding="10dp"
+            />
+
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/AliceBlue"
+    tools:context="com.example.mishr.myapplication.FreindsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/transitions_container">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This Screen will be used to Add your freinds to the Mishra Community Cool isn't it..!!"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:padding="15dp"
+        android:id="@+id/txfreinds1"
+        android:layout_margin="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/Brown"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Let The Developer Know How you feel this App..!!"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:padding="15dp"
+        android:layout_below="@+id/txfreinds1"
+        android:id="@+id/txfreinds2"
+        android:layout_margin="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/Blue"/>
+
+     <!--  <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:layout_marginLeft="80dp"
+           android:id="@+id/freindsmagicbutton"
+           android:layout_below="@+id/txfreinds2"
+           android:padding="15dp"
+           android:text="Do Some Magic"
+           android:textAllCaps="false"
+           android:onClick="DoMagic"
+           android:textSize="20sp"
+           android:textColor="@color/Cyan"
+           android:background="@color/OrangeRed"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:gravity="center"
+           android:layout_height="wrap_content"
+           android:id="@+id/textviewagic"
+           android:layout_below="@+id/freindsmagicbutton"
+           android:layout_marginLeft="80dp"
+           android:padding="15dp"
+           android:textAlignment="center"
+           android:textSize="20sp"
+           android:visibility="gone"
+           android:text="It was Fun na..!!"
+           /> -->
+   </RelativeLayout>
+
+</FrameLayout>

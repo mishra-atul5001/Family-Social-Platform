@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/love"
+        android:orderInCategory="100"
+        android:title="Love it.!!"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Contact"
+        android:orderInCategory="100"
+        android:title="Call The Developer"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/suggestions"
+        android:orderInCategory="100"
+        android:title="Have some Suggestions?"
+        app:showAsAction="never" />
+</menu>
